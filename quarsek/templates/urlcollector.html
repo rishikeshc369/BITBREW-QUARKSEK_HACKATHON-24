@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Collector</title>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <h2>URL Collector</h2>
+            <form id="urlForm" method="post" action="/urlcollector">
+                <div id="urlInputs">
+                    <div class="input-block">
+                        <input type="text" id="url" style="color: black;" name="url" size="50" placeholder="Enter URL">
+                        <button type="submit" class="btn btn-danger">Scan</button>
+                    </div>
+                </div>
+                <br>
+            </form>
+        </div>
+    </center>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validators/13.6.0/validators.min.js"></script>
+</body>
+</html>
